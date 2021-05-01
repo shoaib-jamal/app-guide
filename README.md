@@ -1,14 +1,14 @@
 # RebornXP Developer's Guide
 ![](https://ahrefs.com/blog/wp-content/uploads/2020/06/blog-javascript-seo-400x200.png)
-A guide for developers on publishing their web app to the RebornXP Appstore
+Guide for developers on publishing their web app to the RebornXP Appstore
 
 # Introduction
-This guide contains the rules & template for creating a RebornXP supportable program. After you fork & modify the template according to your web app, you can mail me an attachment at [m.shoaib.jamal@outlook.com](m.shoaib.jamal@outlook.com) and after going through some checks (usually takes up to a week), your app will be uploaded to the Store. Please make it clear that your app may be rejected if it does not meet our standards - See Developer Policy
+This guide contains the rules & template for creating a RebornXP supportable program. After you fork & modify the template according to your web app, you can mail me an attachment at [m.shoaib.jamal@outlook.com](m.shoaib.jamal@outlook.com) and after going through some checks (usually takes up to a week), your app will be uploaded to the Store. Please make it clear that your app may be rejected if it does not meet our standards - See [Developer Policy](#-developer-policy) for more details
 
 # Where is the template?
 The template can be found in this repo (appname.js)
 
-# Developer Policy
+<h1 id="developer-policy">Developer Policy</h1> 
 ## 1. Restricted Content
 Before submitting an app to Store, ensure it complies with these content policies and with local laws. 
 - Should not contain inappropriate content
