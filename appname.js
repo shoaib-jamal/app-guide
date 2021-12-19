@@ -1,5 +1,5 @@
 var el = $.parseHTML(`<window width="800" height="500" title="Your App's title">
-   //Adjust the window title and size according to your web app 
+   <!--Adjust the window title and size according to your web app-->
     
     <style>
 iframe[seamless]{
