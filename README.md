@@ -3,12 +3,14 @@
 <br><br>Guide for developers on publishing their web app to the RebornXP Appstore
 
 # Introduction
-This guide contains the rules & template for creating a RebornXP supportable program. After you fork & modify the template according to your web app, you can mail me an attachment at [m.shoaib.jamal@outlook.com](m.shoaib.jamal@outlook.com) and after going through some checks (usually takes up to a week), your app will be uploaded to the Store. Please make it clear that your app may be rejected if it does not meet our standards.<br>See the [Developer Policy](#dev-policy) for more details
+This guide contains the rules & template for creating a RebornXP supportable program. Edit the template (appname.js) in such way that you are able to resize the app window, app title, app link for example:
+![](example.png)
+Such as this code compiles a Microsoft Bing Search App:
+![](examplebing.png)
 
-# Where is the template?
-The template can be found in this repo [here](https://github.com/RebornXP/app-guide/blob/main/appname.js)<br>
-It contains the code for a template app. You can modify it according to you web app. 
-
+After you are done with modification to appname.js, copy the code (don't fork or send pull requests) and navigate to <a href="https://xpstore.glitch.me/createapp">RebornXP Developer's Panel</a> and fill in the details, and click "Create!" button:
+![](createapp.png)
+And you have successfully published your app to the RebornXP AppStore.
 <h2 id="dev-policy">
 Developer Policy
 </h2>
@@ -19,6 +21,7 @@ Before submitting an app to Store, ensure it complies with these content policie
 - App must not link with any real money gambling
 - No unapproved substances
 - No child endangerment
+- No Spam to the AppStore
 ## 2. Impersonation
 When developers impersonate others or their apps, it misleads users and hurts the developer community. We prohibit apps that mislead users by impersonating someone else.
 ## 3. Intellectual Property
