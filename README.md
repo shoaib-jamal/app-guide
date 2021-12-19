@@ -3,7 +3,7 @@
 <br><br>Guide for developers on publishing their web app to the RebornXP Appstore
 
 # Introduction
-This guide contains the rules & template for creating a RebornXP supported program. Edit the template (appname.js) in such way that you are able to resize the app window, app title, app link for example:<br><br>
+This guide contains the rules & template for creating a RebornXP supported program. Edit the template <a href="appname.js">(appname.js)</a> in such way that you are able to resize the app window, app title, app link for example:<br><br>
 ![](example.PNG)
 <br><br>
 Such as this code compiles a Microsoft Bing Search App:<br><br>
