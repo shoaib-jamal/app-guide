@@ -3,13 +3,15 @@
 <br><br>Guide for developers on publishing their web app to the RebornXP Appstore
 
 # Introduction
-This guide contains the rules & template for creating a RebornXP supportable program. Edit the template (appname.js) in such way that you are able to resize the app window, app title, app link for example:
-![](example.png)
-Such as this code compiles a Microsoft Bing Search App:
-![](examplebing.png)
-
-After you are done with modification to appname.js, copy the code (don't fork or send pull requests) and navigate to <a href="https://xpstore.glitch.me/createapp">RebornXP Developer's Panel</a> and fill in the details, and click "Create!" button:
+This guide contains the rules & template for creating a RebornXP supportable program. Edit the template (appname.js) in such way that you are able to resize the app window, app title, app link for example:<br>
+![](example.PNG)
+<br>
+Such as this code compiles a Microsoft Bing Search App:<br>
+![](examplebing.PNG)
+<br>
+After you are done with modification to appname.js, copy the code (don't fork or send pull requests) and navigate to <a href="https://xpstore.glitch.me/createapp">RebornXP Developer's Panel</a> and fill in the details, and click "Create!" button:<br>
 ![](createapp.png)
+<br>
 And you have successfully published your app to the RebornXP AppStore.
 <h2 id="dev-policy">
 Developer Policy
