@@ -5,7 +5,8 @@
 # Introduction
 This guide contains the rules & template for creating a RebornXP supported program. Edit the template <a href="appname.js">(appname.js)</a> in such way that you are able to resize the app window, app title, app link for example:<br><br>
 
-``` var el = $.parseHTML(`<window width="800" height="500" title="Your App's title">
+``` 
+var el = $.parseHTML(`<window width="800" height="500" title="Your App's title">
    <!--Adjust the window title and size according to your web app-->
     
     <style>
@@ -34,7 +35,8 @@ iframe[seamless]{
  </window>`);
     
 document.body.append(el[0]);
-$(el).updateWindow(); ```
+$(el).updateWindow(); 
+```
 <br><br>
 Such as this code compiles a Microsoft Bing Search App:<br><br>
 ![](examplebing.PNG)
