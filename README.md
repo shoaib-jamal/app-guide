@@ -3,7 +3,6 @@ Welcome to the RebornXP Developer's Guide! This guide is designed to help you pu
 <br>
 1. Click <a href="https://xpstore.glitch.me/createapp">here</a> to navigate to Developer's Panel
 2. This guide contains rules and templates for creating a RebornXP-supported program and submitting it to the app store. Take the following code as a reference and write your program to be able to resize the app window, app title, and app link, for example:
-<br>
 
 ``` 
 var el = $.parseHTML(`<window width="800" height="500" title="Your App's title">
