@@ -1,5 +1,6 @@
 # RebornXP Developer's Guide
 Guide for developers on publishing their web app to the RebornXP Appstore
+<br>
 <a href="https://xpstore.glitch.me/createapp">→ Navigate to RebornXP Developer's Panel</a>
 
 # Introduction
