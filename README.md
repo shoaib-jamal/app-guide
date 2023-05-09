@@ -1,10 +1,9 @@
-# RebornXP Developer's Guide
-Guide for developers on publishing their web app to the RebornXP Appstore via the Developer Panel
+# RebornXP Developer's Guide: Publishing Your Web App to the Appstore
+Welcome to the RebornXP Developer's Guide! This guide is designed to help you publish your web app to the RebornXP Appstore using the Developer Panel. Follow these steps to get started:
 <br>
-<a href="https://xpstore.glitch.me/createapp">→ Navigate to RebornXP Developer's Panel</a>
-
-# Introduction
-This guide contains the rules & template for creating a RebornXP supported program and finally submitting it on the app store. Take the reference of the following code and write a program in such way that you are able to resize the app window, app title, app link for example:<br><br>
+1. Click <a href="https://xpstore.glitch.me/createapp">here</a> to navigate to Developer's Panel
+2. This guide contains rules and templates for creating a RebornXP-supported program and submitting it to the app store. Take the following code as a reference and write your program to be able to resize the app window, app title, and app link, for example:
+<br>
 
 ``` 
 var el = $.parseHTML(`<window width="800" height="500" title="Your App's title">
@@ -39,7 +38,7 @@ document.body.append(el[0]);
 $(el).updateWindow(); 
 ```
 <br>
-Such as this code compiles a Microsoft Bing Search App:
+For reference, following code compiles a Microsoft Bing Search App:
 <br><br>
 
 ``` 
@@ -70,6 +69,8 @@ document.body.append(el[0]);
 $(el).updateWindow(); 
 ```
 <br>
-After you are done with modification, copy the code (don't fork or send pull requests) and navigate to <a href="https://xpstore.glitch.me/createapp">RebornXP Developer's Panel</a> and type the app name, description, add a proper url of an icon and screenshot for example: https://xyz.com/1.png, in the appcode section paste the code, select a category and click "Create!" button.
-<br>
-And you have successfully published your app to the RebornXP AppStore.
+3. After you have modified the code, copy it (don't fork or send pull requests). Next, navigate to the RebornXP Developer's Panel and type in the app name, description, and a proper URL for an icon and screenshot, for example: https://xyz.com/1.png. In the appcode section, paste the code, select a category, and click the "Create!" button.
+
+4. Congratulations, you have successfully published your app to the RebornXP Appstore!
+
+We hope this guide was helpful in getting your web app published to the RebornXP Appstore. If you have any questions or issues, please feel free to contact us. Good luck and happy coding!
