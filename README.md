@@ -1,5 +1,6 @@
 # RebornXP Developer's Guide
 Guide for developers on publishing their web app to the RebornXP Appstore
+<a href="https://xpstore.glitch.me/createapp">→ Navigate to RebornXP Developer's Panel</a>
 
 # Introduction
 This guide contains the rules & template for creating a RebornXP supported program and finally submitting it on the app store. Take the reference of the following code and write a program in such way that you are able to resize the app window, app title, app link for example:<br><br>
