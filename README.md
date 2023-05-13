@@ -68,7 +68,7 @@ document.body.append(el[0]);
 $(el).updateWindow(); 
 ```
 <br>
-3. After you have modified the code, copy it (don't fork or send pull requests). Next, navigate to the RebornXP Developer's Panel and type in the app name, description, and a proper URL for an icon and screenshot, for example: https://xyz.com/1.png. In the appcode section, paste the code, select a category, and click the "Create!" button.
+3. After you have modified the code, copy it (don't fork or send pull requests). Next, navigate to the RebornXP Developer's Panel, check on "Host code in App Store" and type in the app name, description, and a proper URL for an icon and screenshot, for example: https://xyz.com/1.png. In the appcode section, paste the code, select a category, and click the "Create!" button.
 <br>
 <br>
 Congratulations, you have successfully published your app to the RebornXP Appstore!
