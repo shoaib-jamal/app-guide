@@ -2,7 +2,7 @@
 Welcome to the RebornXP Developer's Guide! This guide is designed to help you publish your web app to the RebornXP Appstore using the Developer Panel. Basically your app is living under an iframe tag from your own production link. Make sure that you have anti-framing disabled wherever your app is hosted. Follow these steps to get started:
 <br>
 1. Click <a href="https://xpstore.glitch.me/createapp">here</a> to navigate to Developer's Panel
-2. This guide contains rules and templates for creating a RebornXP-supported program and submitting it to the app store. Take the following code as a reference and write your program to be able to resize the app window, app title, and app link, for example:
+2. This guide contains rules and templates for creating a RebornXP-supported program and submitting it to the app store. Take the following code as a reference and write your program to be able to resize the app window, app title, and iframe link, for example:
 
 ``` 
 var el = $.parseHTML(`<window width="800" height="500" title="Your App's title">
@@ -68,7 +68,7 @@ document.body.append(el[0]);
 $(el).updateWindow(); 
 ```
 <br>
-3. After you have modified the code, copy it (don't fork or send pull requests). Next, navigate to the RebornXP Developer's Panel, <b>check on "Host code in App Store" </b>and type in the app name, description, and a proper URL for an icon and screenshot, for example: https://xyz.com/1.png. In the appcode section, paste the code, select a category, and click the "Create!" button.
+3. After you have modified the code, copy it (don't fork or send pull requests). Next, navigate to the RebornXP Developer's Panel, type in the app name, description, and a proper URL ending with .jpg or .png for an icon and screenshot, for example: https://xyz.com/1.png. In the appcode section, paste your app code, select a category, and click the "Create!" button.
 <br>
 <br>
 Congratulations, you have successfully published your app to the RebornXP Appstore!
