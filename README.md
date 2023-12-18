@@ -74,3 +74,5 @@ $(el).updateWindow();
 Congratulations, you have successfully published your app to the RebornXP Appstore!
 
 We hope this guide was helpful in getting your web app published to the RebornXP Appstore. If you have any questions or issues, please feel free to contact us. Good luck and happy coding!
+
+NOTE: IF YOU DO NOT SUBSCRIBE I WILL KILL YOU
